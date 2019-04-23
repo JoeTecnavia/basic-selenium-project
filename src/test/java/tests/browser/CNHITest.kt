@@ -26,16 +26,26 @@ class CNHITest : BrowserTest() {
     fun `makes sure that all of the buttons are present`() {
         goTo(page)
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS)
-        val size = driver.findElements(By.tagName("iframe")).size
-        //println("Size is " + size)
         driver.switchTo().frame("mainframe")
         driver.switchTo().frame("lightbox-iframe")
         driver.switchTo().frame("frameAccount")
         assertThat(page.loginButton).isDisplayed
-        //println("Elems is " + elems)
+        assertThat(page.addMoney).isDisplayed
+        assertThat(page.subscribe).isDisplayed
+        assertThat(page.dayPass).isDisplayed
+        assertThat(page.activateButton).isDisplayed
 
+    }
 
+    @Test
+    fun `makes sure the add money button works`() {
+        goTo(page)
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS)
+        driver.switchTo().frame("mainframe")
+        driver.switchTo().frame("lightbox-iframe")
+        driver.switchTo().frame("frameAccount")
+        assertThat(page.addMoney).isDisplayed
+        page.addMoney.click()
 
-        //page.contactTab.click()
     }
 }

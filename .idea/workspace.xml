@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd2920d0-056c-4725-9e12-ae97bf8ebe4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/basic-selenium-project_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/basic-selenium-project_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/browser/CNHITest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/browser/pageobjects/AccountPage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/browser/CNHITest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/browser/CNHITest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -54,13 +47,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="1351" />
+          <entry key="kt" value="1460" />
           <entry key="md" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="1351" />
+          <entry key="Kotlin" value="1460" />
           <entry key="PLAIN_TEXT" value="46" />
         </counts>
       </usages-collector>
@@ -86,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/browser/CNHITest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="48" />
+            <state relative-caret-position="502">
+              <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
               <folding>
                 <element signature="e#22#558#0" expanded="true" />
               </folding>
@@ -98,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="45" selection-start-column="45" selection-end-column="45" />
+              <caret column="45" lean-forward="true" selection-start-column="45" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -110,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/browser/pageobjects/AccountPage.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="56" column="35" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="35" />
+            <state relative-caret-position="213">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -583,8 +576,8 @@
         <option value="$PROJECT_DIR$/src/test/resources/config.properties" />
         <option value="$PROJECT_DIR$/src/test/java/tests/browser/pageobjects/EditionsPage.kt" />
         <option value="$PROJECT_DIR$/src/test/java/tests/browser/pageobjects/AccountPage.kt" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/browser/CNHITest.kt" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/browser/CNHITest.kt" />
       </list>
     </option>
   </component>
@@ -694,7 +687,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556031477628" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556031942337" />
   </component>
   <component name="RecentsManager">
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
@@ -749,12 +742,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CNHITest - 2019.04.22 at 12h 10m 51s.xml">
-      <configuration name="CNHITest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CNHITest - 2019.04.23 at 09h 14m 48s.xml">
-      <configuration name="CNHITest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CNHITest - 2019.04.23 at 09h 23m 11s.xml">
       <configuration name="CNHITest" configurationId="JUnit" />
     </history-entry>
@@ -779,6 +766,12 @@
     <history-entry file="CNHITest - 2019.04.23 at 09h 49m 43s.xml">
       <configuration name="CNHITest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CNHITest - 2019.04.23 at 10h 01m 28s.xml">
+      <configuration name="CNHITest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CNHITest - 2019.04.23 at 10h 04m 32s.xml">
+      <configuration name="CNHITest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -789,7 +782,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18123667" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18123667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -798,7 +791,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -889,10 +882,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" lean-forward="true" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/browser/pageobjects/AccountPage.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="56" column="35" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="35" />
+        <state relative-caret-position="213">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -905,18 +905,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/browser/CNHITest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="48" />
+        <state relative-caret-position="502">
+          <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
           <folding>
             <element signature="e#22#558#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="45" selection-start-column="45" selection-end-column="45" />
         </state>
       </provider>
     </entry>

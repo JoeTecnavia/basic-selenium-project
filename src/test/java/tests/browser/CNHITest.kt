@@ -1,0 +1,41 @@
+package tests.browser
+import config.BrowserTest
+import config.annotations.Browser
+import config.annotations.Screenshot
+import config.driver.Breakpoint
+import io.qameta.allure.Description
+import org.fluentlenium.assertj.FluentLeniumAssertions.assertThat
+import org.fluentlenium.core.annotation.Page
+import org.fluentlenium.core.wait.FluentWait
+import org.junit.jupiter.api.Test
+import tests.browser.pageobjects.AccountPage
+import java.util.concurrent.TimeUnit
+import org.openqa.selenium.By
+import com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type.Int
+
+
+
+@Browser(dimension = Breakpoint.XLARGE)
+@Screenshot
+class CNHITest : BrowserTest() {
+
+    @Page
+    lateinit var page: AccountPage
+
+    @Test
+    fun `makes sure that all of the buttons are present`() {
+        goTo(page)
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS)
+        val size = driver.findElements(By.tagName("iframe")).size
+        //println("Size is " + size)
+        driver.switchTo().frame("mainframe")
+        driver.switchTo().frame("lightbox-iframe")
+        driver.switchTo().frame("frameAccount")
+        assertThat(page.loginButton).isDisplayed
+        //println("Elems is " + elems)
+
+
+
+        //page.contactTab.click()
+    }
+}

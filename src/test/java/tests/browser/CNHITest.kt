@@ -12,6 +12,10 @@ import tests.browser.pageobjects.AccountPage
 import java.util.concurrent.TimeUnit
 import org.openqa.selenium.By
 import com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type.Int
+import org.openqa.selenium.JavascriptExecutor
+import org.openqa.selenium.WebElement
+import org.fluentlenium.core.conditions.wait.WaitConditionProxy.element
+
 
 
 
@@ -38,14 +42,35 @@ class CNHITest : BrowserTest() {
     }
 
     @Test
-    fun `makes sure the add money button works`() {
+    fun `log in successfully`() {
         goTo(page)
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS)
         driver.switchTo().frame("mainframe")
         driver.switchTo().frame("lightbox-iframe")
         driver.switchTo().frame("frameAccount")
-        assertThat(page.addMoney).isDisplayed
-        page.addMoney.click()
+        assertThat(page.loginButton).isDisplayed
+        assertThat(page.loginButton).isClickable
+        assertThat(page.loginButton.click())
+
+        assertThat(page.username.modifyAttribute("value","tecnaviapress"))
+        //driver.findElement(By.cssSelector(page.username.toString())).sendKeys("tecnaviapress")
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS)
+        assertThat(page.submitButton.click())
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS)
+        assertThat(page.password.modifyAttribute("value","12qw12qw"))
+        assertThat(page.finalLoginButton.click())
+        Thread.sleep(10000)
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS)
+        driver.switchTo().frame("mainframe")
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS)
+        page.optionsIcon.click()
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS)
+        //driver.switchTo().frame("mainframe")
+        driver.switchTo().frame("lightbox-iframe")
+        driver.switchTo().frame("frameAccount1")
+
+        assertThat(page.logoutButton).isDisplayed
+
 
     }
 }

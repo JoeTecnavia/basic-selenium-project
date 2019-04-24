@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd2920d0-056c-4725-9e12-ae97bf8ebe4c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/basic-selenium-project_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/basic-selenium-project_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/browser/CNHITest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/browser/CNHITest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/browser/pageobjects/AccountPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/browser/pageobjects/AccountPage.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -22,8 +25,10 @@
     <session id="-179286079">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -47,20 +52,20 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="1460" />
+          <entry key="kt" value="2459" />
           <entry key="md" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="1460" />
+          <entry key="Kotlin" value="2459" />
           <entry key="PLAIN_TEXT" value="46" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/browser/JavaBrowserExampleIT.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/browser/BrowserTestExampleIT.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="48" />
+              <caret line="21" column="48" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -82,10 +87,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/browser/CNHITest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+            <state relative-caret-position="332">
+              <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
               <folding>
-                <element signature="e#22#558#0" expanded="true" />
+                <element signature="e#22#714#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="45" lean-forward="true" selection-start-column="45" selection-end-column="45" />
+              <caret column="45" selection-start-column="45" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -103,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/browser/pageobjects/AccountPage.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="332">
+              <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -575,8 +580,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/resources/config.properties" />
         <option value="$PROJECT_DIR$/src/test/java/tests/browser/pageobjects/EditionsPage.kt" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/browser/pageobjects/AccountPage.kt" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/browser/pageobjects/AccountPage.kt" />
         <option value="$PROJECT_DIR$/src/test/java/tests/browser/CNHITest.kt" />
       </list>
     </option>
@@ -592,6 +597,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -682,12 +688,11 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556031942337" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556118800938" />
   </component>
   <component name="RecentsManager">
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
@@ -707,7 +712,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CNHITest.log in successfully">
     <configuration name="CNHITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="basic-selenium-project_test" />
       <extension name="coverage">
@@ -722,8 +727,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CNHITest.log in successfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basic-selenium-project_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.browser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.browser" />
+      <option name="MAIN_CLASS_NAME" value="tests.browser.CNHITest" />
+      <option name="METHOD_NAME" value="log in successfully" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.CNHITest" />
+      <item itemvalue="JUnit.CNHITest.log in successfully" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CNHITest.log in successfully" />
         <item itemvalue="JUnit.CNHITest" />
       </list>
     </recent_temporary>
@@ -742,53 +768,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CNHITest - 2019.04.23 at 09h 23m 11s.xml">
-      <configuration name="CNHITest" configurationId="JUnit" />
+    <history-entry file="CNHITest_log_in_successfully - 2019.04.24 at 09h 37m 37s.xml">
+      <configuration name="CNHITest.log in successfully" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CNHITest - 2019.04.23 at 09h 25m 22s.xml">
-      <configuration name="CNHITest" configurationId="JUnit" />
+    <history-entry file="CNHITest_log_in_successfully - 2019.04.24 at 09h 40m 02s.xml">
+      <configuration name="CNHITest.log in successfully" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CNHITest - 2019.04.23 at 09h 30m 11s.xml">
-      <configuration name="CNHITest" configurationId="JUnit" />
+    <history-entry file="CNHITest_log_in_successfully - 2019.04.24 at 09h 42m 18s.xml">
+      <configuration name="CNHITest.log in successfully" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CNHITest - 2019.04.23 at 09h 33m 51s.xml">
-      <configuration name="CNHITest" configurationId="JUnit" />
+    <history-entry file="CNHITest_log_in_successfully - 2019.04.24 at 09h 44m 13s.xml">
+      <configuration name="CNHITest.log in successfully" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CNHITest - 2019.04.23 at 09h 37m 46s.xml">
-      <configuration name="CNHITest" configurationId="JUnit" />
+    <history-entry file="CNHITest_log_in_successfully - 2019.04.24 at 09h 59m 18s.xml">
+      <configuration name="CNHITest.log in successfully" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CNHITest - 2019.04.23 at 09h 43m 35s.xml">
-      <configuration name="CNHITest" configurationId="JUnit" />
+    <history-entry file="CNHITest_log_in_successfully - 2019.04.24 at 10h 03m 23s.xml">
+      <configuration name="CNHITest.log in successfully" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CNHITest - 2019.04.23 at 09h 46m 19s.xml">
-      <configuration name="CNHITest" configurationId="JUnit" />
+    <history-entry file="CNHITest_log_in_successfully - 2019.04.24 at 10h 05m 31s.xml">
+      <configuration name="CNHITest.log in successfully" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CNHITest - 2019.04.23 at 09h 49m 43s.xml">
-      <configuration name="CNHITest" configurationId="JUnit" />
+    <history-entry file="CNHITest_log_in_successfully - 2019.04.24 at 10h 07m 06s.xml">
+      <configuration name="CNHITest.log in successfully" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CNHITest - 2019.04.23 at 10h 01m 28s.xml">
-      <configuration name="CNHITest" configurationId="JUnit" />
+    <history-entry file="CNHITest_log_in_successfully - 2019.04.24 at 10h 08m 49s.xml">
+      <configuration name="CNHITest.log in successfully" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CNHITest - 2019.04.23 at 10h 04m 32s.xml">
-      <configuration name="CNHITest" configurationId="JUnit" />
+    <history-entry file="CNHITest_log_in_successfully - 2019.04.24 at 10h 10m 15s.xml">
+      <configuration name="CNHITest.log in successfully" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18123667" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.20607375" />
-      <window_info anchor="bottom" id="Messages" weight="0.329718" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
@@ -796,24 +817,27 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.20607375" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE" />
     <entry file="file://$PROJECT_DIR$/src/test/java/config/driver/DriverFactory.kt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -844,16 +868,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/config/annotations/Browser.kt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/browser/pageobjects/EditionsPage.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/browser/JavaBrowserExampleIT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/browser/pageobjects/EditionsPage.kt" />
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/browser/ConditionalExecutionExampleIT.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -882,33 +897,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/browser/JavaBrowserExampleIT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="45" lean-forward="true" selection-start-column="45" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/browser/pageobjects/AccountPage.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="85">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/browser/BrowserTestExampleIT.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="48" />
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/browser/pageobjects/AccountPage.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/browser/CNHITest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        <state relative-caret-position="332">
+          <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
           <folding>
-            <element signature="e#22#558#0" expanded="true" />
+            <element signature="e#22#714#0" expanded="true" />
           </folding>
         </state>
       </provider>
